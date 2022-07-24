@@ -17,7 +17,7 @@ from math import *
 #Iniciamos a programar la graficadora
 #Programamos la interfaz inicial
 window = tk.Tk()
-window.title("GRAFICADORA DE REGRESIÓN LINEAL")
+window.title("GRAFICADORA DE REGRESIÓN LINEAL - PIERO PASTOR")
 window.geometry("900x800")
 style.use("fivethirtyeight")
 figure = Figure()
