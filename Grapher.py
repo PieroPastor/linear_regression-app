@@ -155,7 +155,7 @@ def predict():
             pendiente = (numero * sumaXY - sumaX * sumaY) / (numero * sumaX2 - (sumaX ** 2))
             constante = (sumaY - pendiente * sumaX) / numero
             prediction = pendiente * x_predict + constante
-            messagebox.showinfo("PREDICTION", f"The prediction is y = {prediction}.\n La ecuación de la recta es y = {pendiente}x + {constante}.")
+            messagebox.showinfo("PREDICTION", f"The prediction is y = {prediction}.\nThe rect is y = {pendiente}x + {constante}.")
 
             #Graficamos el punto
             ploteo.plot(x_predict, prediction, "o", color='black', alpha=0.7)
