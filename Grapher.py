@@ -3,8 +3,6 @@
 """""""""""""""""""""""""""""""""
 
 #Importando todas las librerías necesarias
-from glob import glob
-from re import A
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.figure import Figure
